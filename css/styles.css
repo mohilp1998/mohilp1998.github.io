@@ -57,6 +57,9 @@ body.dark-theme {
     text-align: right;
 }
 
+#HelloCaption {
+    margin-top: 200px;
+}
 @media screen and (max-width: 990px) {
     #blockHello-section {
         background-color: #ffffff;
@@ -73,6 +76,10 @@ body.dark-theme {
 
     #dark-theme-button-container {
         margin-right: auto;
+    }
+
+    #HelloCaption {
+        margin-top: 30px;
     }
 }
 
