@@ -1,0 +1,196 @@
+body {
+    color: #000000;
+    /* font-family: 'Lato', Verdana, Helvetica, sans-serif; */
+    /* font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif */
+    font-family: "Ubuntu", "Cantarell", Helvetica Neue,sans-serif;
+    font-size: 17px;
+}
+
+body.dark-theme {
+    color: #fff;
+    background-color: #2c303a;
+}
+
+
+#navbarBlock {
+    background-color: #f0f0f0;
+}
+
+#navbarBlock.dark-theme {
+    background-color: #21242c;
+}
+
+#buttonStyleNavbar {
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 20rem;
+}
+
+#buttonStyleNavbar.dark-theme {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1.2em;
+}
+
+
+#blockHello-section {
+    background-color: #ffffff;
+    padding-top: 64px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+
+
+#MyImage {
+    border: 2px solid;
+    width: 350px;
+    height: auto;
+}
+
+#ImageContainer {
+    text-align: right;
+}
+
+@media screen and (max-width: 990px) {
+    #blockHello-section {
+        background-color: #ffffff;
+        padding-top: 64px;
+        padding-right: 50px;
+        padding-left: 50px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    #ImageContainer {
+        text-align: center;
+    }
+
+    #dark-theme-button-container {
+        margin-right: auto;
+    }
+}
+
+#blockHello-div {
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+#blockHello-section.dark-theme {
+    background-color: #2c303a;
+}
+
+#blockHello-div.dark-theme {
+    background-color: #2c303a;
+}
+
+.icons {
+    color: #000000;
+    padding: 15px;
+    font-size: 1.3em;
+}
+
+i.dark-theme {
+    color: #ffffff;
+}
+email {
+    font-size: 1em;
+}
+
+
+#blockAbout-section {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-bottom: 0px;
+}
+
+#blockAbout-div {
+    background-color: #f5f5f5;
+}
+
+#blockAbout-section.dark-theme {
+    background-color: #21242c;
+}
+
+#blockAbout-div.dark-theme {
+    background-color: #21242c;
+}
+
+#buttonCV {
+    background-color: #a9a9a9;
+    border-radius: 10rem;
+    padding: 10px;
+    color: #000000;
+}
+#buttonCV.dark-theme {
+    background-color: #a9a9a9;
+    color: #ffffff;
+}
+
+#blockMyJourney-section {
+    text-align: center;
+    background-color: #ffffff;
+    margin-bottom: 0px;
+}
+
+#blockMyJourney-div{
+    background-color: #ffffff;
+}
+
+#blockMyJourney-section.dark-theme {
+    background-color: #2c303a;
+}
+
+#blockMyJourney-div.dark-theme {
+    background-color: #2c303a;
+}
+
+#blockProjects-section {
+    text-align: left;
+    background-color: #f5f5f5;
+    margin-bottom: 5px;
+    padding-bottom: 32px;
+}
+
+#blockProjects-div {
+    background-color: #f5f5f5;
+}
+
+#blockProjects-section.dark-theme {
+    background-color: #21242c;
+}
+
+#blockProjects-div.dark-theme {
+    background-color: #21242c;
+}
+
+.ProjectImage {
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+}
+
+#footer-div {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#footer-div.dark-theme {
+    background-color: #2c303a;
+}
+
+#footer-div-2 {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#footer-div-2.dark-theme {
+    background-color: #2c303a;
+}

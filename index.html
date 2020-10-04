@@ -1,12 +1,276 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!doctype html>
+<html lang=en>
     <head>
         <meta charset="utf-8">
-        <title>Blog</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Mohil Patel</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/timelineStyles.css">
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Fira Sans' rel='stylesheet'>
+        <script src="https://kit.fontawesome.com/c46d6eaf86.js" crossorigin="anonymous"></script>
+        <script src="js/scramble.js"></script>
     </head>
     <body>
-        <div>
-            <h1>Work In Progress!!</h1>
-        </div>
+        <header>
+            <div class="container">
+                <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="navbarBlock">
+                    <a class="navbar-brand" href="#">Mohil</a>
+                    <ul class="navbar-nav" id="dark-theme-button-container">
+                        <li>
+                            <button class="btn-toggle nav-link" id="buttonStyleNavbar">
+                                <i class="fas fa-moon" id="dark-mode-toggle-img"></i>
+                            </button>
+                        </li>
+                    </ul>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#blockAbout-section">About<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#blockMyJourney-section">My Journey</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#blockProjects-section">Projects</a>
+                            </li>
+                            <li class="nav-item inactive">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                        </ul>
+                  </div>
+                </nav>
+            </div>
+        </header>
+
+        <section class="jumbotron" id="blockHello-section"> <!-- Need to add section else the background will not be all silver-->
+            <div class="container" id="blockHello-div">
+                <div class="row">
+                    <div class="col-lg" id="ImageContainer">
+                        <img src="images/Mohil-main.jpg" alt="mohil" class="img-fluid rounded-circle" id="MyImage">
+                    </div>
+                    <div class="col-lg" style="margin-top: 200px;">
+                        <h4>Hello I'm</h4>
+                        <h1 style="font-size: 60px;">Mohil Patel</h1>
+                        <div class-"row">
+                            <a href="mailto:mohilp1998@gmail.com" class="icons">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <email>
+                                <font id="email" style="display:inline;">
+                                    9oipl19m8h@gmail.com
+                                    <email>
+                                        <a href="#" onclick="emailScramble.initAnimatedBubbleSort();return false;">&nbsp;unscramble</a>
+                                    </email>
+                                </font>
+                                <script>
+                                    emailScramble = new scrambledString(document.getElementById('email'),
+                                    'emailScramble', '9oipl19m8h@gmail.com',
+                                    [9, 2, 4, 6, 5, 7, 8, 1, 10, 3, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]);
+                                </script>
+                            </email>
+                        </div>
+                        <div>
+                            <a href="https://github.com/mohilp1998" class="icons">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mohil-patel-1b984a154/" class="icons">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://www.goodreads.com/user/show/102255055-mohil-patel" class="icons">
+                                <i class="fab fa-goodreads"></i>
+                            </a>
+                            <!-- <a href="files/CV.pdf" class="icons">
+                                <i class="fas fa-file-pdf"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="jumbotron" id="blockAbout-section">
+            <div class="container" id="blockAbout-div">
+                <div class="col-12" style="padding-bottom: 40px">
+                    <h1>About Me</h1>
+                </div>
+                <div class="col-12" style="padding-bottom: 40px">
+                    <p>I am a software engineer at <a href="https://www.nvidia.com/en-in/">Nvidia</a>, where I am working on Nvidia's cloud gaming service Geforce Now. I am currently working with QoS (Quality of Streaming) team on improving the game streaming experience on the Geforce Now service.</p>
+                    <p>I graduated from IIT Bombay in 2020 with BTech in Electrical Engineering and Minor in Computer Science. My interests broadly lie in the domains of Computer Architecture, Systems and Networks. I am also open to exploring challenging problems in other fields of computer science.</p>
+                    <p>In my free time, I like to read books & comics, enjoy outdoor sports and play videogames. I enjoy reading books on a variety of topic; you can find my Goodreads profile <a href="https://www.goodreads.com/user/show/102255055-mohil-patel">here</a>. Some of my favourite comics/manga series are <a href="https://www.gocomics.com/calvinandhobbes/">Calvin and Hobbes</a>, <a href="https://www.dccomics.com/characters/batman">Batman</a>, <a href="https://en.wikipedia.org/wiki/One_Piece">One Piece</a> and <a href="https://www.webtoons.com/en/action/hardcore-leveling-warrior/list?title_no=1221&page=1">Hardcore Leveling Warrior</a>. And in sports, I particularly enjoy playing football (p.s. I mean soccer) and badminton.</p>
+                </div>
+            </div>
+            <div class="col-12">
+                <a href="files/CV.pdf" id="buttonCV">
+                    Download CV
+                    <i class="fa fa-download"></i>
+                </a>
+            </div>
+        </section>
+
+        <section class="jumbotron" id="blockMyJourney-section">
+            <div class="timeline-container" id="blockMyJourney-div">
+                <div class="timeline-section-header">
+                    <h2>My Journey</h2>
+                    <p>This is my professional and educational journey.</p>
+                </div>
+                <ul class="timeline-items">
+
+                    <li class="timeline-item-base timeline-right">
+                        <div class="timeline-image">
+                            <img src="images/nvidia.jpg" alt="nvidia" class="img-fluid rounded-circle">
+                        </div>
+                        <div class="timeline-caption" style="text-align: right;">
+                            <h5 class = "timeline-headings">2020 - Present</h5>
+                            <h5 class = "timeline-headings">Nvidia, Software Engineer</h5>
+                            <div>
+                                <p>I am working on Nvidia's Geforce Now cloud gaming service. I am working in QoS (Quality of Streaming) team, where we design algorithms to dynamically change streaming parameters based on the user's network conditions to provide the best gaming experience.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="timeline-item-base timeline-left">
+                        <div class="timeline-image">
+                            <img src="images/samsung.jpg" alt="samsung_RnD" class="img-fluid rounded-circle">
+                        </div>
+                        <div class="timeline-caption" style="text-align: left;">
+                            <h5 class = "timeline-headings">Summer 2019</h5>
+                            <h5 class = "timeline-headings">Samsung R&D Internship</h5>
+                            <div>
+                                <p>I worked in Samsung's Smart Devices team, where we worked on developing methods to improve user experience by analyzing data generated from smart devices. I worked on implementing clustering techniques on data to gain insights in user behaviour patterns which can be used to improve user experience.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="timeline-item-base timeline-right">
+                        <div class="timeline-image">
+                            <img src="images/iitb.jpg" alt="iit_bombay" class="img-fluid rounded-circle">
+                        </div>
+                        <div class="timeline-caption" style="text-align: right;">
+                            <h5 class = "timeline-headings">2016 - 2020</h5>
+                            <h5 class = "timeline-headings">IIT Bombay</h5>
+                            <div>
+                                <p>I graduated from IIT Bombay with B.Tech in Electrical Engineering with Honours and Minor in Computer science. My final year project was under <a href="https://www.ee.iitb.ac.in/web/people/faculty/home/madhav">Prof. Madhav Desai</a>, where we worked on building an end-to-end real-time server-based communication link with hardware encryption.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+        <section class="jumbotron" id="blockProjects-section">
+            <div class="container" id="blockProjects-div">
+                <div class="col-12" style=" padding-bottom: 40px; text-align: center;">
+                    <h1>Projects</h1>
+                </div>
+
+                <div class="row" style=" padding-bottom: 30px;">
+                    <div class="col-4">
+                        <div class="ProjectImage">
+                            <img src="images/secure_comm.png" class="img-fluid rounded" alt="secure-comm">
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <h5> <a href="https://github.com/mohilp1998/BTP">Real-Time Server Based Secure Communication</a></h5>
+                        <h6 style="font-weight: 600;">July '19 - April '20</h6>
+                        In this project, we developed an end-to-end secure communication link with a programmable hardware block in the audio pipeline. We programmed the hardware block as an encryption engine to secure the communication link. The audio communication happens via a server and is a full-duplex link.
+                    </div>
+                </div>
+
+                <div class="row" style=" padding-bottom: 30px;">
+                    <div class="col-4">
+                        <div class="ProjectImage">
+                            <img src="images/superscalar_arch.jpg" class="img-fluid rounded" alt="Cyrix 6x86">
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <h5> <a href="https://github.com/mohilp1998/superscalar_architecture">Superscalar Architecture</a></h5>
+                        <h6 style="font-weight: 600;">January '19 - April '19</h6>
+                        Designed a 16-bit microprocessor based on a superscalar architecture with fetch width of two Instructions and four different pipelines in VHDL. The architecture is based on a Turing Complete ISA with 17 Instructions and was successfully verified by simulation using Modelsim.
+                    </div>
+                </div>
+
+                <div class="row" style=" padding-bottom: 30px;">
+                    <div class="col-4">
+                        <div class="ProjectImage">
+                            <img src="images/optical_fiber.png" class="img-fluid rounded" alt="optical-fiber">
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <h5> <a href="files/EDL_Final_Report.pdf">Data Transmission through Polymer Optical Fiber Link </a></h5>
+                        <h6 style="font-weight: 600;">January '19 - April '19</h6>
+                        Polymer Optical Fiber provides a low-cost alternative, with the benefit of the high speed of light, for data transmission. In this project, we developed a module capable of transmitting digital data using Polymer Optical Fiber and a simple LED. We achieved data transmission rates up to 35 Mbps.
+                    </div>
+                </div>
+
+                <div class="row" style=" padding-bottom: 30px;">
+                    <div class="col-4">
+                        <div class="ProjectImage">
+                            <img src="images/texture.png" class="img-fluid rounded" alt="texture">
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <h5> <a href="https://github.com/mohilp1998/Texture-Synthesis-by-Non-parametric-Sampling">Texture Synthesis using Non-Parametric Sampling</a></h5>
+                        <h6 style="font-weight: 600;">October '18 - November '18</h6>
+                        In the project, we implemented a research paper on Texture Synthesis, discussing a novel texture synthesis technique based on the assumption of spatial locality. We successfully implemented and replicated the results shown in the paper using MATLAB.
+                    </div>
+                </div>
+
+                <div class="row" style=" padding-bottom: 30px;">
+                    <div class="col-4">
+                        <div class="ProjectImage">
+                            <img src="images/fpga.jpg" class="img-fluid rounded" alt="DE0-nano-fpga">
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <h5> <a href="#">Inter-FPGA data Transmission using LVDS</a></h5>
+                        <h6 style="font-weight: 600;">May '18 - July '18</h6>
+                        We developed a high-speed bidirectional data transmission link between two FPGAs using LVDS (Low Voltage Differential Signalling). The data flow is controlled using a simple request and acknowledgement interface along with FIFOs to store the data. The data transmission link is capable of transmitting at data rates up to 400 Mbps.
+                    </div>
+                </div>
+
+                <div class="row" style=" padding-bottom: 15px;">
+                    <div class="col-4">
+                        <div class="ProjectImage">
+                            <img src="images/drone.png" class="img-fluid rounded" alt="drona-aviation">
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <h5> <a href="https://www.dronaaviation.com/">Multiple Drone Tracking and Localization </a></h5>
+                        <h6 style="font-weight: 600;">November '17 - December '17</h6>
+                        In the project, we localized the drone's position under a camera setup using Whycon ROS package and extracted 3D coordinates of multiple drones in real-time with accuracy up to 3cm. These coordinates were later used in a project to automate drone's flight movement based on its past location.
+                    </div>
+                </div>
+
+                <div class="col-12" style="text-align: center;">
+                    <p>Please refer to my <a href="files/CV.pdf">CV</a> for complete list of all the projects and additional information.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="page-footer font-small">
+            <div class="col-12" id="footer-div">
+                Source Code for this website can be found <a href="https://github.com/mohilp1998/mohilp1998.github.io"> here</a>.
+            </div>
+            <div class="col-12" id="footer-div-2">
+                This website is developed using ideas (and some parts of code) taken from <a href="https://www.robinwieruch.de/">Robin Wieruch</a> and <a href="https://jeffdonahue.com/">Jeff Donahue</a>'s websites.
+            </div>
+        </footer>
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="js/myscripts.js"></script>
     </body>
 </html>
