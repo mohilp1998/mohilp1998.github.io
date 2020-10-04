@@ -55,6 +55,16 @@
         margin-left: 400px;
     }
 }
+
+@media screen and (max-width: 620px) {
+    .timeline-right{
+        margin-right: 320px;
+    }
+
+    .timeline-left{
+        margin-left: 320px;
+    }
+}
 .timeline-image{
     position: absolute;
     left: 50%;
