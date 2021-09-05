@@ -47,4 +47,5 @@ btn.addEventListener('click', function() {
   //Changing footer
   document.getElementById("footer-div").classList.toggle('dark-theme');
   document.getElementById("footer-div-2").classList.toggle('dark-theme');
+  document.getElementById("footer-div-3").classList.toggle('dark-theme');
 })

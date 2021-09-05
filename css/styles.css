@@ -206,3 +206,12 @@ email {
 #footer-div-2.dark-theme {
     background-color: #2c303a;
 }
+
+#footer-div-3 {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#footer-div-3.dark-theme {
+    background-color: #2c303a;
+}

@@ -1,0 +1,13 @@
+drone.png - https://www.dronaaviation.com/wp-content/uploads/dronaImg/X_red.png
+fpga.png - https://cdn-shop.adafruit.com/1200x900/451-02.jpg
+iitb.jpg - https://i.ytimg.com/vi/_TmHlnNFffo/maxresdefault.jpg
+luggy.jpg - https://www.wallpaperflare.com/monkey-d-luffy-digital-wallpaper-one-piece-monkey-d-luffy-wallpaper-grg
+nvidia.jpg - https://www.logo.wine/a/logo/Nvidia/Nvidia-Light-Vertical-Dark-Background-Logo.wine.svg
+nvidia.png - https://www.logo.wine/a/logo/Nvidia/Nvidia-Logo.wine.svg
+optical_fiber.png - https://farm66.static.flickr.com/65535/49380633701_727bbfbec0_b.jpg
+samsung.png - https://cafefcdn.com/zoom/600_375/2020/3/2/img-rnd-america-158313367399290665854-crop-1583133683522642841855.jpg
+superscalar_arch.jpg - https://i.pinimg.com/736x/09/28/b3/0928b3d635dbb95ec20125082b2edb1c.jpg
+superscalar_arhc_2.png - http://acs.pub.ro/~cpop/SMPA/Modern%20Processor%20Design_%20Fundamentals%20of%20Superscalar%20Processors%20(%20PDFDrive%20).pdf Figure-4.20
+texture.png - https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/papers/efros-iccv99.pdf
+UW-Madison-2.png - https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Wisconsin_Badgers_logo.svg/263px-Wisconsin_Badgers_logo.svg.png
+UW-Madison.png - https://wisconsintechnologycouncil.com/wp-content/uploads/2019/11/color-UWcrest-print-191x300.png
