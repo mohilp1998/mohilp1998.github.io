@@ -11,3 +11,4 @@ superscalar_arhc_2.png - http://acs.pub.ro/~cpop/SMPA/Modern%20Processor%20Desig
 texture.png - https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/papers/efros-iccv99.pdf
 UW-Madison-2.png - https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Wisconsin_Badgers_logo.svg/263px-Wisconsin_Badgers_logo.svg.png
 UW-Madison.png - https://wisconsintechnologycouncil.com/wp-content/uploads/2019/11/color-UWcrest-print-191x300.png
+favicon-32x32.png - https://favicon.io/favicon-generator/
