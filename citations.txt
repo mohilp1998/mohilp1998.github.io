@@ -12,3 +12,7 @@ texture.png - https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/papers/
 UW-Madison-2.png - https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Wisconsin_Badgers_logo.svg/263px-Wisconsin_Badgers_logo.svg.png
 UW-Madison.png - https://wisconsintechnologycouncil.com/wp-content/uploads/2019/11/color-UWcrest-print-191x300.png
 favicon-32x32.png - https://favicon.io/favicon-generator/
+colorSensor.jpg - https://files.seeedstudio.com/wiki/Grove-I2C_Color_Sensor/img/Reflcect.jpg
+ctImage.jpg - https://www.neurologyadvisor.com/wp-content/uploads/sites/10/2018/12/ctofbrainsh594606644_1341028.jpg
+socialNetworkGraph.jpg - https://miro.medium.com/max/1400/0*KIKnUvzdIkp5zcDJ
+graphDatabases.png - https://miro.medium.com/max/1400/1*3XqHO9_jmc_ENLXuLhWpgQ.png
