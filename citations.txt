@@ -16,3 +16,4 @@ colorSensor.jpg - https://files.seeedstudio.com/wiki/Grove-I2C_Color_Sensor/img/
 ctImage.jpg - https://www.neurologyadvisor.com/wp-content/uploads/sites/10/2018/12/ctofbrainsh594606644_1341028.jpg
 socialNetworkGraph.jpg - https://miro.medium.com/max/1400/0*KIKnUvzdIkp5zcDJ
 graphDatabases.png - https://miro.medium.com/max/1400/1*3XqHO9_jmc_ENLXuLhWpgQ.png
+samsung-acl.jpg - https://img.us.news.samsung.com/us/wp-content/uploads/2017/04/14155915/Campus-Exterior-SamsungSign-1-e1493262997296-950x633.jpg
