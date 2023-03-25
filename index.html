@@ -202,6 +202,32 @@
                 <div class="col-12" style=" padding-bottom: 40px; text-align: center;">
                     <h1>Projects</h1>
                 </div>
+                
+                <div class="row" style=" padding-bottom: 30px;" id="db2graph">
+                    <div class="col-lg-4">
+                        <div class="ProjectImage">
+                            <img src="images/CS_744_Model_parallelism.png" class="img-fluid rounded" alt="Graph-Databases">
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <h5> <a href="files/CS_744-grp7-poster.pdf">Efficient Distributed Transfer Learning using Pipelined Model Parallelism</a></h5>
+                        <h6 style="font-weight: 600;">Oct '22 - Dec '22</h6>
+                        Larger and Larger Neural networks are being trained daily, making it infeasible to train them from scratch. A huge fraction of ML training nowadays focuses on fine-tuning the last few layers of a pre-trained model. In our project, we propose a new distributed framework in which we can fine-tune multiple different models in parallel that share the same fixed initial part. This framework improves the performance and resource utilization by employing pipelined model parallelism and allows us to fine-tune multiple models together, avoiding repeated work. [<a href="files/CS_744-grp7-poster.pdf"><i>poster</i></a> // <a href="files/CS_744_Final_Report.pdf"><i>report</i></a>]
+                    </div>
+                </div>
+
+                <div class="row" style=" padding-bottom: 30px;" id="db2graph">
+                    <div class="col-lg-4">
+                        <div class="ProjectImage">
+                            <img src="images/rocksdb_read_write.png" class="img-fluid rounded" alt="Graph-Databases">
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <h5> <a href="files/CS_736_Final_Presentation.pptx">Improving Performance in LSM-Tree based Key-Value Stores using NVMe</a></h5>
+                        <h6 style="font-weight: 600;">Oct '22 - Dec '22</h6>
+                        Log-Structured Merge-Tree key-value stores convert random writes into sequential writes. This behavior helps improve performance for the write-intensive workload with a tradeoff of causing write amplification. These systems perform well for spinning hard disks, but with modern SATA SSDs and NVMe SSDs, there is scope for improvement. In this project, we improved the performance of LSM-Tree-based key-value stores (we used <a href="https://rocksdb.org/">RocksDB</a> for testing) for SSDs. We implemented two key ideas: splitting data across SSD and HDD to utilize the total bandwidth of both together. And second, we used <a href="https://spdk.io/">SPDK</a> (Storage Performance Development Kit) to bypass the kernel and access NVMe SSD directly for reads and writes. [<a href="files/CS_736_Final_Presentation.pptx"><i>presentation</i></a> // <a href="files/CS_736_project_report.pdf"><i>report</i></a>]
+                    </div>
+                </div>
 
                 <div class="row" style=" padding-bottom: 30px;" id="db2graph">
                     <div class="col-lg-4">
@@ -212,7 +238,7 @@
                     <div class="col-lg-8">
                         <h5> <a href="https://github.com/marius-team/marius/pull/99">Database to Graph Conversion Tool</a></h5>
                         <h6 style="font-weight: 600;">Sept '21 - May '22</h6>
-                        This project is part of the <a href="https://github.com/ryansun117/marius">Marius project</a>. Marius is a system for training graph neural networks and embeddings for large-scale graphs on a single machine. As a part of preprocessing utility, we designed a database to graph conversion tool which converts relational databases into graphs as sets of triples that can be used as input datasets for Marius, allowing streamlined preprocessing from database to Marius. The tool uses out-of-memory processing to generate graphs of sizes up to billions of edges within a few hours. Currently, the tool supports <a href="https://www.postgresql.org/">Postgres</a>, <a href="https://www.mysql.com/">MySQL</a>, and <a href="https://mariadb.org/">MariaDB</a> as input databases. [<a href="https://github.com/marius-team/marius/pull/99"><i>code</i></a> // <a href="https://github.com/ryansun117/marius/blob/db2graph/docs/db2graph/db2graph.rst"><i>documentation</i></a>]
+                        This project is part of the <a href="https://github.com/marius-team/marius">Marius project</a>. Marius is a system for training graph neural networks and embeddings for large-scale graphs on a single machine. As a part of preprocessing utility, we designed a database to graph conversion tool which converts relational databases into graphs as sets of triples that can be used as input datasets for Marius, allowing streamlined preprocessing from database to Marius. The tool uses out-of-memory processing to generate graphs of sizes up to billions of edges within a few hours. Currently, the tool supports <a href="https://www.postgresql.org/">Postgres</a>, <a href="https://www.mysql.com/">MySQL</a>, and <a href="https://mariadb.org/">MariaDB</a> as input databases. [<a href="https://github.com/marius-team/marius/pull/99"><i>code</i></a> // <a href="https://github.com/ryansun117/marius/blob/db2graph/docs/db2graph/db2graph.rst"><i>documentation</i></a>]
                     </div>
                 </div>
 
@@ -368,7 +394,7 @@
 
         <footer class="page-footer font-small">
             <div class="col-12" id="footer-div-3">
-                Last Updated: 05/29/2022 (MM/DD/YYYY)
+                Last Updated: 03/24/2023 (MM/DD/YYYY)
             </div>
             <div class="col-12" id="footer-div">
                 Source Code (Github Repo) for this website can be found <a href="https://github.com/mohilp1998/mohilp1998.github.io"> here</a>.
