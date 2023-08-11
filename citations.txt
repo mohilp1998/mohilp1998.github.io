@@ -19,3 +19,5 @@ graphDatabases.png - https://miro.medium.com/max/1400/1*3XqHO9_jmc_ENLXuLhWpgQ.p
 samsung-acl.jpg - https://img.us.news.samsung.com/us/wp-content/uploads/2017/04/14155915/Campus-Exterior-SamsungSign-1-e1493262997296-950x633.jpg
 CS_744_Model_parallelism.png - https://images.ctfassets.net/xjan103pcp94/3dXMEU8MDlwyreIB7bFMwI/9c755e4a7c5aa9f314c49cbeac21ab4c/blog-what-is-distributed-training-data-vs-model-parallelism.png
 rocksdb_read_write.png - https://www.intel.com/content/dam/develop/external/us/en/images/klyon%20rocksdb_1.png
+CS769_QA.png - https://blog.seeburger.com/natural-language-question-answering-systems-get-quick-answers-to-concrete-questions/
+CS739_Raft.jpg - https://en.wikipedia.org/wiki/Raft_(algorithm)
